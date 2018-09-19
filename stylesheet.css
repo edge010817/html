@@ -1,3 +1,9 @@
 h1 {
   color: red;
 }
+
+.menu li {
+  list-style: none;
+  float: left;
+  padding-right: 10px;
+}
