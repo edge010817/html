@@ -1,9 +1,31 @@
 h1 {
   color: red;
 }
+body {
+  background: linear-gradient(-45deg, rgba(190, 246, 190, .8), rgba(30, 245, 60, .8)),
+  url(images/main_bg.jpg);
+  background-size: cover;
+}
+]
+.header{
+ background-color: lime;
+ height: 90px;
+}
 
-.menu li {
-  list-style: none;
+.header-logo {
+  font-family: Courier New;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.header-list {
+
+}
+
+.header-list li {
   float: left;
+  list-style: none;
+  font-family: Meiryo;
+  font-size: 20px;
   padding-right: 10px;
 }
